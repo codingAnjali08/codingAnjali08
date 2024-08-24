@@ -1,0 +1,210 @@
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-repeat: no-repeat, no-repeat;
+    background-image: url(images/photo.png);
+    background-size: 350px;
+    background-position: right;
+   
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    padding-left: 100px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px 20px;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.menu{
+    
+    margin-right: 100px;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a:hover{
+    background:#e74c3c;
+    transition: 0.4;
+}
+.text{
+    color: white;
+    margin: 150px;
+    max-width: 900px;
+}
+.c-btn{
+    border: none;
+    outline: none;
+    color: white;
+    background:#e74c3c;
+    padding: 10px;
+    margin-top: 20px;
+}
+#about{
+    padding: 100px 50px;
+
+}
+.section-info{
+    font-weight: bold;
+    text-align: center;
+
+
+}
+.section-info h1{
+    font-size: 50px;
+}
+.section-info p{
+    font-size: 25px;
+    color: #c73c3c;
+}
+.about-row p {
+    margin-bottom: 15px;
+    line-height: 1.6; /* Adjusts the line spacing */
+}
+.b-btn{
+    border: none;
+    outline: none;
+    color: white;
+    background:#e74c3c;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+.d-btn{
+    border: none;
+    outline: none;
+    color: white;
+    background:#e74c3c;
+    padding: 10px;
+    margin-top: 20px;
+    align-items: center;
+}
+.skills{
+    padding: 100px 50px;
+}
+ .skills-row{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+padding: 50px;
+background-color: rgb(27, 25, 25);
+    }
+    .skills-left-col{
+        flex-basis: 50%;
+        text-align: justify;
+    }
+    .skills-right-col{
+        flex-basis: 50%;
+       
+    }
+    .skills-left-col p{
+        font-size: 20px;
+        text-align: justify;
+        color: white;
+
+    }
+
+.progress{
+    width: 80%;
+    color: blue;
+
+}
+.progress-div{
+    width: 70%;
+    margin: auto;
+    
+}
+.progress-div p{
+       margin-bottom: 10px;
+       font-size: 20px;
+       padding-left: 80px;
+       text-align: justify;
+       color: white;
+}
+#services{
+    padding: 70px 50px;
+
+
+}
+.project-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.project-box{
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 3px 5px grey;
+    padding: 20px;
+    margin-top: 20px;
+}
+.project-box:hover{
+    background: #e74c3c;
+    color: white;
+    transition: 0.4sec;
+}
+.project-box {
+    width: 60%;
+    
+}
+#contact{
+   
+    
+    padding: 50px;
+background-color: rgb(27, 25, 25);
+
+
+}
+.contact-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-box{
+    background-color: white;
+    flex-basis: 25%;
+    text-align: center;
+    box-shadow: 2px 3px 5px white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.contact-box:hover{
+    background: #e74c3c;
+    color: white;
+    transition: 0.4sec;
+}
+.contact-box {
+    width: 60%;
+    
+}
+.contact-box p{
+    color:black;
+    
+}
+#contact ,.contact-box h2{
+    color: white;
+    
+}
+#footer {
+    
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px; /* Adjust the padding as needed */
+    font-size: 14px; /* Adjust the font size as needed */
+}
